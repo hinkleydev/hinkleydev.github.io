@@ -2,6 +2,10 @@ body {
     margin: 0;
 }
 
+.mono {
+    font-family: 'Courier New', monospace;
+}
+
 .no-margin {
     margin: 0;
 }
@@ -9,8 +13,7 @@ body {
 .title {
     text-align: center; 
     font-size: 7vw; 
-    margin: -0.5vw 0vw; 
-    font-family: 'Courier New', monospace;
+    margin: -0.2vw 0vw; 
     font-weight: 900;
 }
 
@@ -25,7 +28,6 @@ body {
     width: 12vw;
     height: 3vw;
     font-size: 2vw;
-    font-family: 'Courier New', monospace;
     font-weight: 900;
     text-align: center;
     padding: 1vw 0 0 0;
@@ -34,4 +36,13 @@ body {
 .nav-button:hover {
     background-color: black;
     color: white;
+}
+
+.half {
+    width: 50%;
+    float: left;
+}
+
+.half > div {
+    display: inline-block;
 }
