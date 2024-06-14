@@ -61,3 +61,16 @@ body {
 li {
     margin: 2% 0%;
 }
+
+.cta-button {
+    background-color: black;
+    border: 0.2vw white solid;
+    font-weight: 600;
+    text-align: center;
+    padding: 1vw;
+}
+
+.cta-button > span {
+    text-decoration: none;
+    color: white;
+}
