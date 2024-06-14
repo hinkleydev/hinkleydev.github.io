@@ -74,3 +74,13 @@ li {
     text-decoration: none;
     color: white;
 }
+
+.software-logos {
+    display: inline-block;
+}
+
+.software-logos > img {
+    vertical-align: middle;
+    width: 10vw;
+    margin: 2vw;
+}
